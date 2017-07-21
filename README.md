@@ -12,3 +12,7 @@ The implementation is different from one browser to another, sometimes depend on
 
 * In some protocol such as "mailto:", IE seems to trigger the fail callback while continuing on opening the protocol just fine (tested in IE11/Win 10). This issue doesn't occur with a custom protocol.
 * Edge, in contrast, never fail anything as it will just offer users to find an app in Windows Store to open an unknown protocol.
+
+
+个人记录，目前试用为IE10+，chrome，ff，本人电脑为win7.
+需要检查IE8、9的方法。
